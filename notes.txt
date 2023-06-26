@@ -1,0 +1,58 @@
+Version Control VC 
+save time 
+track changes 
+track ownership (upload , hour , commit message)
+sandboxing ==> isolated area any feature branch
+
+vc ==> git
+
+
+vc has 2 types 
+1/ cetralized  vc (under the same network/ single point of failure)
+2/  distrubuted vc 
+
+Repo => Reprosatry ==> folder
+local repo
+remote repo
+
+
+Local Repo
+
+//Cofigure Git :
+git config --global user.name "user name"
+git config --global user.email "user email"
+
+
+
+to initialize the repo 
+git init
+|
+|
+|
+|
+working directory / tree
+staginig area
+local git
+|
+|
+|
+remote repo
+
+
+git add filename ==> to staging area 
+git commit -m "message" ==> to local repo
+
+
+
+Remote Repo :
+github 
+bitbuckets
+
+
+
+to rename banch from master to main : 
+git branch -M main
+
+
+to link between local repo and main repo :
+git remote add origin https://github.com/GehadKassap/e-commerece-107.git
