@@ -1,0 +1,469 @@
+{
+	"info": {
+		"_postman_id": "62fac4b5-668a-43c1-9dc9-4002878938fe",
+		"name": "WebSite Services",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "27344342"
+	},
+	"item": [
+		{
+			"name": "Diploma Api's",
+			"item": [
+				{
+					"name": "Diplomas tiltle",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.211.201/api/website-service/diplomas-title",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"211",
+								"201"
+							],
+							"path": [
+								"api",
+								"website-service",
+								"diplomas-title"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Diplomas tiltle",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8000/api/website-service/diplomas-title",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"website-service",
+										"diplomas-title"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 May 2023 10:38:49 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Wed, 10 May 2023 10:38:49 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.34"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": 35,\n            \"name\": \"y\"\n        },\n        {\n            \"id\": 2,\n            \"name\": \"iOS\"\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "Diplomas List",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.211.201/api/website-service/list-diplomas",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"211",
+								"201"
+							],
+							"path": [
+								"api",
+								"website-service",
+								"list-diplomas"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "Diplomas List",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8000/api/website-service/list-diplomas",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"website-service",
+										"list-diplomas"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 11 May 2023 14:07:36 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 11 May 2023 14:07:36 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.34"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "57"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": 1,\n            \"name\": \"Android\",\n            \"fees\": \"3000\",\n            \"hours\": 100,\n            \"image\": \"http://127.0.0.1:8000/uploads/courses/0559pgL6EP1683798671.jpg\",\n            \"hasKit\": 0,\n            \"send_welcome_email\": true,\n            \"icon_master\": \"http://127.0.0.1:8000/uploads/diploma_icon_master/CNHvfM7tn21683798671.jpg\",\n            \"icon_slave\": \"http://127.0.0.1:8000/uploads/diploma_icon_slave/zs0zPm3EsT1683798671.jpg\",\n            \"video\": \"https://www.youtube.com/watch?v=j02OZRjf2d83\",\n            \"description\": \"weqd\",\n            \"requirements\": [\n                \"qwd\"\n            ],\n            \"learning_points\": [\n                \"qssss\"\n            ],\n            \"certification_subjects\": [\n                \"maop\",\n                \"WeW\"\n            ],\n            \"diploma_curriculum\": [\n                {\n                    \"name\": \"qwd\",\n                    \"terms\": [\n                        \"fatma adel\",\n                        \"3d\"\n                    ]\n                },\n                {\n                    \"name\": \"dvds\",\n                    \"terms\": null\n                },\n                {\n                    \"name\": \"ytr\",\n                    \"terms\": null\n                },\n                {\n                    \"name\": \"q4wd\",\n                    \"terms\": null\n                },\n                {\n                    \"name\": \"q5wd\",\n                    \"terms\": null\n                },\n                {\n                    \"name\": \"asxc\",\n                    \"terms\": [\n                        \"acsac\",\n                        \"asx\",\n                        \"asxsax\",\n                        \"asxasx\",\n                        \"asaccccc\"\n                    ]\n                }\n            ]\n        },\n        {\n            \"id\": 2,\n            \"name\": \"iOS\",\n            \"fees\": \"3000\",\n            \"hours\": 0,\n            \"image\": \"http://127.0.0.1:8000/uploads/courses/apFww5HYdV1683708770.jpg\",\n            \"hasKit\": 0,\n            \"send_welcome_email\": true,\n            \"icon_master\": \"http://127.0.0.1:8000/uploads/diploma_icon_master/clSo9PhkuP1683708770.jpg\",\n            \"icon_slave\": \"http://127.0.0.1:8000/uploads/diploma_icon_slave/soyYzcuSJs1683708770.jpg\",\n            \"video\": \"https://www.youtube.com/watch?v=j02OZRjf2d8\",\n            \"description\": \"saefvwae\",\n            \"requirements\": [\n                \"r3\",\n                \"yhjy\"\n            ],\n            \"learning_points\": [\n                \" قولت لسالي عدي \",\n                \"test 2\"\n            ],\n            \"certification_subjects\": [],\n            \"diploma_curriculum\": []\n        },\n        {\n            \"id\": 35,\n            \"name\": \"y\",\n            \"fees\": \"234\",\n            \"hours\": 34,\n            \"image\": \"http://127.0.0.1:8000/uploads/courses/atNoa9CiGf1683798860.jpg\",\n            \"hasKit\": 0,\n            \"send_welcome_email\": true,\n            \"icon_master\": \"http://127.0.0.1:8000/uploads/diploma_icon_master/SFZYF80n4R1683798860.jpg\",\n            \"icon_slave\": \"http://127.0.0.1:8000/uploads/diploma_icon_slave/mmmwlHDJEK1683798860.jpg\",\n            \"video\": \"https://www.youtube.com/watch?v=j02OZRjf2d8\",\n            \"description\": \"If you're looking for random paragraphs, you've come to the right place. When a random word or a random sentence isn't quite enough, the next logical step is to find a random paragraph. We created the Random Paragraph Generator with you in mind. The process is quite simple. Choose the number of random paragraphs you'd like to see and click the button. Your chosen number of paragraphs will instantly appear.  While it may not be obvious to everyone, there are a number of reasons creating random paragraphs can be useful. A few examples of how some people use this generator are listed in the following paragraphs.  Creative Writing Generating random paragraphs can be an excellent way for writers to get their creative flow going at the beginning of the day. The writer has no idea what topic the random paragraph will be about when it appears. This forces the writer to use creativity to complete one of three common writing challenges. The writer can use the paragraph as the first one of a short story and build upon it. A second option is to use the random paragraph somewhere in a short story they create. The third option is to have the random paragraph be the ending paragraph in a short story. No matter which of these challenges is undertaken, the writer is forced to use creativity to incorporate the paragraph into their writing.  Tackle Writers' Block A random paragraph can also be an excellent way for a writer to tackle writers' block. Writing block can often happen due to being stuck with a current project that the writer is trying to complete. By inserting a completely random paragraph from which to begin, it can take down some of the issues that may have been causing the writers' block in the first place.  Beginning Writing Routine Another productive way to use this tool to begin a daily writing routine. One way is to generate a random paragraph with the intention to try to rewrite it while still keeping the original meaning. The purpose here is to just get the writing started so that when the writer goes onto their day's writing projects, words are already flowing from their fingers.  Writing Challenge Another writing challenge can be to take the individual sentences in the random paragraph and incorporate a single sentence from that into a new paragraph to create a short story. Unlike the random sentence generator, the sentences from the random paragraph will have some connection to one another so it will be a bit different. You also won't know exactly how many sentences will appear in the random paragraph.  Programmers It's not only writers who can benefit from this free online tool. If you're a programmer who's working on a project where blocks of text are needed, this tool can be a great way to get that. It's a good way to test your programming and that the tool being created is working well.  Above are a few examples of how the random paragraph generator can be beneficial. The best way to see if this random paragraph picker will be useful for your intended purposes is to give it a try. Generate a number of paragraphs to see if they are beneficial to your current project.  If you do find this paragraph tool useful, please do us a favor and let us know how you're using it. It's greatly beneficial for us to know the different ways this tool is being used so we can improve it with updates. This is especially true since there are times when the generators we create get used in completely unanticipated ways from when we initially created them. If you have the time, please send us a quick note on what you'd like to see changed or added to make it better in the future.  Frequently Asked Questions Can I use these random paragraphs for my project? Yes! All of the random paragraphs in our generator are free to use for your projects.  Does a computer generate these paragraphs? No! All of the paragraphs in the generator are written by humans, not computers. When first building this generator we thought about using computers to generate the paragraphs, but they weren't very good and many times didn't make any sense at all. We therefore took the time to create paragraphs specifically for this generator to make it the best that we could.  Can I contribute random paragraphs? Yes. We're always interested in improving this generator and one of the best ways to do that is to add new and interesting paragraphs to the generator. If you'd like to contribute some random paragraphs, please contact us.  How many words are there in a paragraph? There are usually about 200 words in a paragraph, but this can vary widely. Most paragraphs focus on a single idea that's expressed with an introductory sentence, then followed by two or more supporting sentences about the idea. A short paragraph may not reach even 50 words while long paragraphs can be over 400 words long, but generally speaking they tend to be approximately 200 words in length\",\n            \"requirements\": [\n                \"r3\",\n                \"لو قولت لسالي عدي  ردت و قالت فلوسي قاعجه تحتي\"\n            ],\n            \"learning_points\": [\n                \" قولت لسالي عدي \"\n            ],\n            \"certification_subjects\": [],\n            \"diploma_curriculum\": []\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "get one Diploma details",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.211.201/api/website-service/get-diploma/1",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"211",
+								"201"
+							],
+							"path": [
+								"api",
+								"website-service",
+								"get-diploma",
+								"1"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get one Diploma details",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8000/api/website-service/get-diploma/1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"website-service",
+										"get-diploma",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 11 May 2023 14:08:30 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Thu, 11 May 2023 14:08:30 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.34"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": {\n        \"id\": 1,\n        \"name\": \"Android\",\n        \"fees\": \"3000\",\n        \"hours\": 100,\n        \"image\": \"http://127.0.0.1:8000/uploads/courses/0559pgL6EP1683798671.jpg\",\n        \"hasKit\": 0,\n        \"send_welcome_email\": true,\n        \"icon_master\": \"http://127.0.0.1:8000/uploads/diploma_icon_master/CNHvfM7tn21683798671.jpg\",\n        \"icon_slave\": \"http://127.0.0.1:8000/uploads/diploma_icon_slave/zs0zPm3EsT1683798671.jpg\",\n        \"video\": \"https://www.youtube.com/watch?v=j02OZRjf2d83\",\n        \"description\": \"weqd\",\n        \"requirements\": [\n            \"qwd\"\n        ],\n        \"learning_points\": [\n            \"qssss\"\n        ],\n        \"certification_subjects\": [\n            \"maop\",\n            \"WeW\"\n        ],\n        \"diploma_curriculum\": [\n            {\n                \"name\": \"qwd\",\n                \"terms\": [\n                    \"fatma adel\",\n                    \"3d\"\n                ]\n            },\n            {\n                \"name\": \"dvds\",\n                \"terms\": null\n            },\n            {\n                \"name\": \"ytr\",\n                \"terms\": null\n            },\n            {\n                \"name\": \"q4wd\",\n                \"terms\": null\n            },\n            {\n                \"name\": \"q5wd\",\n                \"terms\": null\n            },\n            {\n                \"name\": \"asxc\",\n                \"terms\": [\n                    \"acsac\",\n                    \"asx\",\n                    \"asxsax\",\n                    \"asxasx\",\n                    \"asaccccc\"\n                ]\n            }\n        ]\n    }\n}"
+						}
+					]
+				}
+			]
+		},
+		{
+			"name": "Groups",
+			"item": [
+				{
+					"name": "get one Diploma Groups",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.211.201/api/website-service/list-diploma-groups/{id}",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"211",
+								"201"
+							],
+							"path": [
+								"api",
+								"website-service",
+								"list-diploma-groups",
+								"{id}"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get one Diploma Groups",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8000/api/website-service/list-diploma-groups/1",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"website-service",
+										"list-diploma-groups",
+										"1"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 14 May 2023 11:32:58 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 14 May 2023 11:32:58 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.34"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "58"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": 3,\n            \"name\": \"test 111\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-05-14\",\n            \"training_days\": [\n                \"Tuesday\",\n                \"Thursday\",\n                \"Friday\"\n            ],\n            \"from\": \"00:24:28\",\n            \"to\": \"14:00:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 2,\n            \"aviailable_seats\": 98,\n            \"is_online\": true\n        },\n        {\n            \"id\": 4,\n            \"name\": \"test 101\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-05-15\",\n            \"training_days\": [\n                \"Monday\"\n            ],\n            \"from\": \"10:00:00\",\n            \"to\": \"14:00:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 0,\n            \"aviailable_seats\": 100,\n            \"is_online\": false\n        },\n        {\n            \"id\": 9,\n            \"name\": \"Junius Weissnat\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-09-02\",\n            \"training_days\": [\n                \"Tuesday\",\n                \"Thursday\",\n                \"Friday\"\n            ],\n            \"from\": \"00:37:00\",\n            \"to\": \"05:22:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 0,\n            \"aviailable_seats\": 100,\n            \"is_online\": true\n        }\n    ]\n}"
+						}
+					]
+				},
+				{
+					"name": "get Viral Groups",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://139.59.211.201/api/website-service/list-viral-groups",
+							"protocol": "http",
+							"host": [
+								"139",
+								"59",
+								"211",
+								"201"
+							],
+							"path": [
+								"api",
+								"website-service",
+								"list-viral-groups"
+							]
+						}
+					},
+					"response": [
+						{
+							"name": "get Viral Groups",
+							"originalRequest": {
+								"method": "GET",
+								"header": [],
+								"url": {
+									"raw": "127.0.0.1:8000/api/website-service/list-viral-groups",
+									"host": [
+										"127",
+										"0",
+										"0",
+										"1"
+									],
+									"port": "8000",
+									"path": [
+										"api",
+										"website-service",
+										"list-viral-groups"
+									]
+								}
+							},
+							"status": "OK",
+							"code": 200,
+							"_postman_previewlanguage": "json",
+							"header": [
+								{
+									"key": "Host",
+									"value": "127.0.0.1:8000"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 14 May 2023 11:32:44 GMT"
+								},
+								{
+									"key": "Date",
+									"value": "Sun, 14 May 2023 11:32:44 GMT"
+								},
+								{
+									"key": "Connection",
+									"value": "close"
+								},
+								{
+									"key": "X-Powered-By",
+									"value": "PHP/7.2.34"
+								},
+								{
+									"key": "Cache-Control",
+									"value": "no-cache, private"
+								},
+								{
+									"key": "Content-Type",
+									"value": "application/json"
+								},
+								{
+									"key": "X-RateLimit-Limit",
+									"value": "60"
+								},
+								{
+									"key": "X-RateLimit-Remaining",
+									"value": "59"
+								}
+							],
+							"cookie": [],
+							"body": "{\n    \"data\": [\n        {\n            \"id\": 3,\n            \"name\": \"test 111\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-05-14\",\n            \"training_days\": [\n                \"Tuesday\",\n                \"Thursday\",\n                \"Friday\"\n            ],\n            \"from\": \"00:24:28\",\n            \"to\": \"14:00:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 2,\n            \"aviailable_seats\": 98,\n            \"is_online\": true\n        },\n        {\n            \"id\": 4,\n            \"name\": \"test 101\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-05-15\",\n            \"training_days\": [\n                \"Monday\"\n            ],\n            \"from\": \"10:00:00\",\n            \"to\": \"14:00:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 0,\n            \"aviailable_seats\": 100,\n            \"is_online\": false\n        },\n        {\n            \"id\": 6,\n            \"name\": \"test\",\n            \"diploma_id\": 2,\n            \"diploma_name\": \"iOS\",\n            \"starting_date\": \"2024-03-15\",\n            \"training_days\": [\n                \"Tuesday\"\n            ],\n            \"from\": \"10:00:00\",\n            \"to\": \"23:00:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 0,\n            \"aviailable_seats\": 100,\n            \"is_online\": false\n        },\n        {\n            \"id\": 9,\n            \"name\": \"Junius Weissnat\",\n            \"diploma_id\": 1,\n            \"diploma_name\": \"Android\",\n            \"starting_date\": \"2023-09-02\",\n            \"training_days\": [\n                \"Tuesday\",\n                \"Thursday\",\n                \"Friday\"\n            ],\n            \"from\": \"00:37:00\",\n            \"to\": \"05:22:00\",\n            \"branch\": \"Maadi\",\n            \"lab\": \"poi\",\n            \"registered_student\": 0,\n            \"aviailable_seats\": 100,\n            \"is_online\": true\n        }\n    ]\n}"
+						}
+					]
+				}
+			]
+		}
+	]
+}
